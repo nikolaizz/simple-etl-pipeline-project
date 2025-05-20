@@ -1,0 +1,18 @@
+# Cara menjalankan skrip
+python3 main.py
+
+# Menjalankan unit test pada folder tests
+pytest test_extract.py
+pytest test_transform.py
+pytest test_load.py
+
+# Menjalankan test coverage pada folder tests
+python -m coverage run test_extract.py
+python -m coverage run test_transform.py
+python -m coverage run test_load.py
+
+# Melihat report coverage test
+python -m coverage test
+
+# Url Google Sheets:
+https://docs.google.com/spreadsheets/d/1qkzwYBMQDRx0AFTONigI_vDn2ZUdWgZYl_CoBGktSxg/edit?gid=0#gid=0
